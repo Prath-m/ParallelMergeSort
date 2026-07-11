@@ -33,7 +33,7 @@ int main() {
 
     std::cout << "ParallelMergeSort time taken: " << parallelMergeSortDuration.count() << " seconds" << std::endl;
 
-    // delete mergesort1;
+    delete mergesort1;
 
     return 0;
 }
